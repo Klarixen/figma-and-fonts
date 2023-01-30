@@ -1,3 +1,10 @@
+body {
+    position: relative;
+    width: 1600px;
+    height: 920px;
+
+background: #FFFFFF;
+}
 .logo {
 
     font-family: 'Montserrat', sans-serif;
@@ -8,16 +15,14 @@
     font-size: 30px;
     line-height: 160%;
     /* or 48px */
-    
     letter-spacing: -0.02em;
-    
     color: #0A1B32;
 }
 .logo-dot {
     color: #4F56F1;
 }
 
-nav {
+a {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -29,8 +34,19 @@ nav {
     color: #1B0A42;
     margin-top: 48px;
     margin-left: 97.5px;
+    text-decoration: none;
+    
 }
-.sign-in-up {
+section {
+    display: inline-block;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    
+}
+.signin {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -41,14 +57,14 @@ nav {
     letter-spacing: 0.02em;
     color: #1B0A42;
     margin-top: 48px;
-    margin-left:752.2px;
+    margin-right:20px;
+    /* mrgin-left is supposed to be around 720px but I wanted it to look good in my browser*/
+    margin-left: 600px;
 }
 .signup-btn {
     position: absolute;
     width: 120px;
     height: 59.65px;
-    left: 1412.26px;
-    top: 30px;
     background: #4F56F1;
     border-radius: 6px;
     font-family: 'Roboto', sans-serif;
@@ -61,7 +77,13 @@ nav {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     border: none;
-    margin-top: 48px;
+    margin-top: 30px;
+    margin-right:68px;
+    margin-left:20px;
+    
+}
+.sign-in-up {
+    display: inline;
 }
 
 h1 {
@@ -110,4 +132,14 @@ h1 {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     border: none; 
+}
+img {
+    position: absolute;
+    width: 653px;
+    height: 604px;
+    left: 853px;
+    top: 186px;
+    margin-top:97px;
+    margin-right:94;
+    margin-left:115px;
 }
