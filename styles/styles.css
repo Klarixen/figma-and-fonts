@@ -1,0 +1,113 @@
+.logo {
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    margin-top: 37px;
+    margin-left: 80px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 160%;
+    /* or 48px */
+    
+    letter-spacing: -0.02em;
+    
+    color: #0A1B32;
+}
+.logo-dot {
+    color: #4F56F1;
+}
+
+nav {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+    margin-top: 48px;
+    margin-left: 97.5px;
+}
+.sign-in-up {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+    margin-top: 48px;
+    margin-left:752.2px;
+}
+.signup-btn {
+    position: absolute;
+    width: 120px;
+    height: 59.65px;
+    left: 1412.26px;
+    top: 30px;
+    background: #4F56F1;
+    border-radius: 6px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 48px;
+}
+
+h1 {
+    font-family: 'Ramaraja', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 76px;
+    /* or 106% */
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+    margin-top: 208.71px;
+    margin-left:200px;
+    max-width: 495px;
+    width: 100%;
+}
+
+.info-text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+    letter-spacing: 0.02em;
+    color: #9A9A9A;
+    margin-left:200px;
+    max-width: 538.08px;
+    width: 100%;
+}
+.more-btn {
+    position: absolute;
+    width: 152px;
+    height: 63.82px;
+    left: 200px;
+    margin-top: 50px;
+    background: #4F56F1;
+    border-radius: 6px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    /* or 200% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    border: none; 
+}
